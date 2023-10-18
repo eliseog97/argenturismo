@@ -232,11 +232,12 @@ div article img{
 .fondo-transparente{
     background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75));
 }
-#bannerPaquetes{
-    background-image: url("./imagenes/paquetes.jpg");
-    background-repeat: none;
-    background-size: cover;
-    padding: 500px 0px;
+.main-paquetes{
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 #bannerPaquetes h1{
     color: #ffffff;
