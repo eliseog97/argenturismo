@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&family=Water+Brush&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href=".../css/styles.css">
 </head>
 <body>
     
@@ -28,37 +28,57 @@
              <a href="../index.html" class="active">Menu</a>
          </li>
          <li>
-                 <a href="../paginas/contacto.html">contacto</a>
+                 <a href="../paginas-html/contacto.html">contacto</a>
           </li>
           <li>
-             <a href="../paginas/provincias.html">Provincias</a>
+             <a href="../paginas-html/provincias.html">Provincias</a>
           </li>
           <li>
-             <a href="../paginas/paquetes.html">Paquetes</a>
+             <a href="../paginas-html/paquetes.html">Paquetes</a>
           </li>
           <li>
-             <a href="../paginas/hoteles.html">Hoteles</a>
-          </li>
-         
-         
+             <a href="../paginas-html/hoteles.html">Hoteles</a>
+          </li>        
      </ul>
     </nav>
 </header>
-
-
-
+     
      <main>
-        <section id="bannerProvincias">
+        <section id="bannercontacto">
           <div class="fondo-transparente">
-            <div class="imagen-provincias">
-              <img src="../imagenes/provincias.jpg"  srcset="../imagenes/provincias.jpg 320w, ../imagenes/provincias.jpg 480w, ../imagenes/provincias.jpg 800w" alt="">
-            </div>    
-           <h1>Visita la provincia que quieras</h1>
-           <p>conoce nuestro pais y disfruta de su naturaleza</p>
-           </div>
-        </section> 
-              
-      </main>
+           <h1>Contactanos</h1>
+           <p>dejanos tu consulta</p>
+           </div> 
+           <section class="container-fluid formulario">
+            
+            <form class="row g-3 gap"> 
+              <div class="col-md-6">
+                <label class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Apellido:</label>
+                <input type="text" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email:</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Telefono:</label>
+              <input type="tel" class="form-control" id="inputCity">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" cols="30" rows="10" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Deja tu consulta aquí...</label>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn">Enviar</button>
+          </div>
+            </form>
+           </section>
+    </main>
+     
     <footer>
         <div>
           <nav>
@@ -71,8 +91,6 @@
          </nav>
        </div>
     </footer>
-
-
     <script>
       hamburger = document.querySelector(".hamburger");
       hamburger.onclick = function () {
@@ -80,6 +98,7 @@
           navBar.classList.toggle("active");
       }
   </script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
     </html>
