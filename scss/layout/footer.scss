@@ -1,11 +1,14 @@
 footer{
     height: auto;
     width: auto;
+    margin-bottom: 0;
     background-color: #11101b;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     grid-area: footer;
+    
+   
     div nav a{
         color: #fefefe;
         text-decoration: none;
@@ -13,4 +16,9 @@ footer{
         padding: 10px;
         
     }
+}
+.footer2 {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
