@@ -3,12 +3,12 @@
  @import "./general/variables.scss";
  @import "./general/tipografia.scss";
 
- //layout
+ // layout
  @import "./layout/footer.scss";
  @import "./layout/header.scss";
  @import "./layout/main.scss";
  
- //paginas
+ // paginas
  @import "./paginas/contactos.scss";
  @import "./paginas/hoteles.scss";
  @import "./paginas/paquetes.scss";
@@ -16,3 +16,86 @@
  @import "./paginas/index.scss";
  
 
+ @media only screen and (max-width:1920px) {
+    header {
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width:1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width:990px) {
+
+    body {
+        grid-template-rows: 80px auto 50px;
+    }
+    header{
+   height: auto;
+      flex-direction: row;
+      align-items: center;
+}
+ main{
+    padding: 24px 16px;
+ }
+
+   
+    footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+   } 
+
+    .hamburger {
+       display: block;
+       cursor: pointer;
+      
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+      
+    }
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #11101b;
+        transition: 0.5s;
+        overflow:hidden ;
+    }
+    .nav-bar.active {
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-bar.active ul {
+        opacity:1 ;
+    
+    }
+    .nav-bar ul li a{
+        margin-bottom: 12px;  
+        background-color:  #1c1b29;
+    }
+    .imagen-hoteles img{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+}

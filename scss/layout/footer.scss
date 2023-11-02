@@ -2,12 +2,23 @@ footer{
     height: auto;
     width: auto;
     margin-bottom: 0;
-    background-color: #11101b;
+    background-color: $color-footer;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     grid-area: footer;
+    .footer-index{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+         height: auto;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+    }
     
+     
    
     div nav a{
         color: #fefefe;
@@ -16,9 +27,4 @@ footer{
         padding: 10px;
         
     }
-}
-.footer2 {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }

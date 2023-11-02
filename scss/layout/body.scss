@@ -1,0 +1,19 @@
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 80px 700px 70px;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "main main"
+    "footer footer footer";
+    column-gap: 0px;
+    row-gap: 0px;
+  
+}

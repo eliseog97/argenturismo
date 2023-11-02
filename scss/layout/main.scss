@@ -1,3 +1,30 @@
+main{
+    margin: 0;
+    padding: 20px;
+    max-height: auto;
+    min-height: 700px;
+    grid-area: main;
+    font-family: "roboto, sans-serif"; 
+    background: #11101b ;
+    h1 {
+        padding: 30px;
+        margin: 30px;
+        color: #fefefe;
+        background-color: #11101b;
+        align-items: center;
+    } img {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
 .card {
     padding: 0;
     margin: 5px;
@@ -14,38 +41,23 @@ display: none;
     display: flex;
     padding: 20px;
     margin: 20px;
+    li a {
+        display: block;
+        color:#fefefe ;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 25px;
+        border-radius: 50px;
+        transition: 0.2s;
+        margin: 0 5px;
+        &:hover{
+            color: #11101b;
+            background: #fefefe;
+        }
+    }
 }
-.nav-bar ul li a {
-    display: block;
-    color:#fefefe ;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px 25px;
-    border-radius: 50px;
-    transition: 0.2s;
-    margin: 0 5px;
-}
-.nav-bar ul li a:hover{
-    color: #11101b;
-    background: #fefefe;
-}
-main{
 
-    grid-area: main;
-    font-family: "roboto, sans-serif"; 
-    background: linear-gradient(
-        90deg,
-     rgba(61, 96, 184, 0.829)0%,
-     rgb(3, 9, 63)70%
-     );
-    
-}
-main h1 {
-    padding: 0;
-    margin: 0;
-    color: #fefefe;
-    background-color: #11101b;
-}
+
 main img {
     padding: 0;
     margin: 0;

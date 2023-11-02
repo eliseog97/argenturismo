@@ -1,34 +1,28 @@
-header{
-    width: 100%;
-    padding: 0px 0px;
-    height: 80px;
-    list-style-type: none;
-    background: $color-primario;
-     grid-area: header;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     position: relative;
-     z-index: 300000000; 
-     ul li {
-        list-style-type: none;
-     }
-     div a{
-        text-decoration: none;
-        color: #fefefe;
-        font-size: 28px;
-        font-weight: bold;  
-    }  
-     .logo a:hover{
-        color: #11101b;
-        background: #fefefe;
-        display: block;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 10px 25px;
-        border-radius: 50px;
-        transition: 0.2s;
-        margin: 0 5px;
-    } 
-}
+
+
+    #bannerProvincias{
+   
+        background-repeat: none;
+        background-size: cover;
+        padding: 300px 0px;   
+        h1 {
+            padding: 0 10px;
+            margin: 0;
+            color: #ffffff;
+            font-family: 'Water+Brush', cursiva;
+           
+        }
+        p{
+            color: #ffffff;
+            padding: 10px 10px;
+            margin: 0;
+        }
+    }
+
+    .imagen-provincias{
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+
