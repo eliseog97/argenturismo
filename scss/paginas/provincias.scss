@@ -37,15 +37,13 @@ box-sizing: border-box;
             margin-top: 5px;
             height: 300px;
             width: 300px;
-            border-radius: 300px;
-            background-color: black ;
-            
+            border-radius: 50px;
         }
     }
  h2{
     margin: 10px;
     padding: 10px;
-    color: #ffffff;
+    color: $color-texto;
     background-color: $color-secundario;
     border-radius: 30px;
     
