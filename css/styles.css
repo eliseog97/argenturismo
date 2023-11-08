@@ -206,10 +206,14 @@ p {
   color: #fefefe;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #bannerProvincias {
   background-repeat: none;
   background-size: cover;
-  padding: 300px 0px;
+  padding: 70px;
 }
 #bannerProvincias h1 {
   padding: 0 10px;
@@ -223,9 +227,35 @@ p {
   margin: 0;
 }
 
-.imagen-provincias {
-  padding: 0;
-  margin: 0;
+.img {
+  height: 300px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+.column img {
+  padding: 5px;
+  margin-top: 5px;
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-color: black;
+}
+
+h2 {
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #1c1b29;
+  border-radius: 30px;
 }
 
 .container-fluid nav p {
