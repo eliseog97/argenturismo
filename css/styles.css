@@ -1,5 +1,5 @@
 footer {
-  height: 40px;
+  height: auto;
   width: auto;
   margin-bottom: 0;
   background-color: #000000;
@@ -173,11 +173,11 @@ main img {
 
 .main-paquetes {
   padding: 10px;
-  margin: 10px;
+  margin: auto;
   box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.2588235294);
   display: flex;
   align-items: center;
-  width: 600px;
+  width: 80%;
   height: 430px;
 }
 .main-paquetes img {
@@ -186,6 +186,7 @@ main img {
   object-fit: cover;
   opacity: 0.8;
   transition: 0.5s ease;
+  object-fit: cover;
 }
 .main-paquetes img:hover {
   cursor: progress;
@@ -204,6 +205,13 @@ main img {
 
 p {
   color: #ffffff;
+}
+
+.promos {
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "roboto";
 }
 
 * {
@@ -247,6 +255,7 @@ p {
   height: 300px;
   width: 300px;
   border-radius: 50px;
+  object-fit: cover;
 }
 
 h2 {

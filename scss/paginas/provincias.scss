@@ -50,5 +50,6 @@ box-sizing: border-box;
 }
 @if $color-secundario == #1c1b29{
     $color-texto: #ffffff;
-}@else $color-secundario == blue;
+}@else{
 $color-texto: red;
+}
