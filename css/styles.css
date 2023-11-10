@@ -256,6 +256,7 @@ p {
   width: 300px;
   border-radius: 50px;
   object-fit: cover;
+  background: linear-gradient(#000000, #ffffff, #0206f3);
 }
 
 h2 {
@@ -303,6 +304,11 @@ h2 {
   }
   main {
     padding: 24px 16px;
+  }
+  main .container-fluid {
+    padding: 30px;
+    margin: 30px;
+    align-items: center;
   }
   footer {
     flex-direction: column;
