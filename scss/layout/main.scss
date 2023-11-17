@@ -2,7 +2,7 @@ main{
     margin: 0;
     padding: 20px;
     max-height: auto;
-    min-height: 700px;
+    min-height: 95vh;
     grid-area: main;
     font-family: "roboto, sans-serif"; 
     background: #11101b ;
@@ -12,11 +12,13 @@ main{
         color: #fefefe;
         background-color: #11101b;
         align-items: center;
+        text-align: center;
     } img {
         padding: 0;
         margin: 0;
         height: 100%;
         width: 100%;
+        
     }
     
 }
